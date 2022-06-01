@@ -26,11 +26,11 @@ public class ParseServiceImpl implements ParseService {
 	@PostConstruct
 	void init() {
 		map = new HashMap<>();
-		map.put("B", 11 + "");
-		map.put("C", 12 + "");
-		map.put("D", 13 + "");
-		map.put("E", 14 + "");
-		map.put("F", 15 + "");
+		map.put("B", "11");
+		map.put("C", "12");
+		map.put("D", "13");
+		map.put("E", "14");
+		map.put("F", "15");
 
 		hexToBinarymap = new HashMap<>();
 		hexToBinarymap.put("0", "0000");
